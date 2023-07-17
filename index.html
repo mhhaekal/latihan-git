@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Belajar HTML</title>
+    </head>
+    <body>
+        <h1>Test Hello World</h1>
+        <div id = "name"></div>
+        <script>
+            // alert("Halo Guys")
+            var name = prompt("What's Your Name ?")
+            alert("Hello "+name)
+            var confirm1 = confirm("Are You Single?")
+            document.getElementById("name").innerHTML = " Hello "+name
+            document.getElementById("name").innerHTML += " You Are "+`${confirm1 ?"Tingle":"Taken"}`            
+        </script>
+    </body>
+</html>
